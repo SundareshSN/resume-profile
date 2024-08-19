@@ -9,13 +9,13 @@ const Contact = () => {
         <p className="text-muted">Reach out to me using the form below:</p>
         <Form>
           <Form.Group controlId="formName">
-            <Form.Control type="text" placeholder="Your Name" className="text-light" />
+            <Form.Control type="text" placeholder="Your Name" className="text" />
           </Form.Group>
           <Form.Group controlId="formEmail">
-            <Form.Control type="email" placeholder="Your Email" className="text-light" />
+            <Form.Control type="email" placeholder="Your Email" className="text" />
           </Form.Group>
           <Form.Group controlId="formMessage">
-            <Form.Control as="textarea" rows={4} placeholder="Your Message" className="text-light" />
+            <Form.Control as="textarea" rows={4} placeholder="Your Message" className="text" />
           </Form.Group>
           <Button type="submit" className="btn-custom">Send</Button>
         </Form>
