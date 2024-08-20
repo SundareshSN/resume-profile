@@ -113,7 +113,7 @@ const Contact = () => {
                         />
                     </Form.Group>
                     <p></p>
-                    <Button type="submit" className="btn-custom" disabled={isButtonDisabled}>
+                    <Button className="btn-custom" disabled={isButtonDisabled}>
                         Send
                     </Button>
                 </Form>
