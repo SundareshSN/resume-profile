@@ -30,7 +30,7 @@ const Resume = () => {
             <Container>
                 <h2 className="text-dark">My Resume</h2>
                 <p className="text-muted">Explore my work experience, education, skills, and certifications below...</p>
-                <Button onClick={handleDownload} className="btn-custom">
+                <Button onClick={handleDownload} className="btn-custom" style={{ backgroundColor: 'black', color: 'white', border: 'none' }}>
                     Download Resume
                 </Button>
             </Container>

@@ -113,7 +113,7 @@ const Contact = () => {
                         />
                     </Form.Group>
                     <p></p>
-                    <Button className="btn-custom" disabled={isButtonDisabled}>
+                    <Button type="submit" className="btn-custom" style={{ backgroundColor: 'black', color: 'white', border: 'none' }} disabled={isButtonDisabled}>
                         Send
                     </Button>
                 </Form>
