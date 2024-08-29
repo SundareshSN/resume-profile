@@ -136,3 +136,46 @@ footer {
   padding: 1.5rem;
   text-align: center;
 }
+
+.skill-box {
+  background-color: #f8f9fa;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  transition: transform 0.3s ease;
+  margin: 10px; /* Space around each skill box */
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+
+.skill-logo {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-box p {
+  margin: 0;
+  font-weight: bold;
+  color: #555;
+}
+
+.skills-section {
+  padding: 20px;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow the boxes to wrap onto new lines */
+  margin-bottom: 20px;
+}
+
+.skills-row h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}

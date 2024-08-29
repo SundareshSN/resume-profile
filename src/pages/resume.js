@@ -28,8 +28,14 @@ const Resume = () => {
     return (
         <section id="resume">
             <Container>
-                <h2 className="text-dark">My Resume</h2>
-                <p className="text-muted">Explore my work experience, education, skills, and certifications below...</p>
+                <h2 className="display-6 text-dark">My Resume</h2>
+                <p className="lead text-muted" style={{ 'text-align': 'justify' }}>As a skilled software developer with a strong academic background, I have a proven track record of designing and implementing efficient solutions. My expertise in various programming languages, frameworks, and technologies, combined with my knowledge of machine learning and cloud computing, allows me to deliver high-quality results.
+
+                    Throughout my career, I have successfully contributed to projects ranging from employee management systems to network optimization. My ability to troubleshoot complex technical issues and develop innovative solutions has been instrumental in achieving project goals.
+
+                    I am passionate about continuous learning and staying up-to-date with the latest advancements in technology. My certifications in machine learning and cloud computing demonstrate my commitment to professional development. I am confident in my ability to contribute meaningfully to any team and am eager to take on new challenges in my career.</p>
+
+                    <p className="lead text-muted" style={{ 'text-align': 'justify' }}>Click here to download my resume!</p>
                 <Button onClick={handleDownload} className="btn-custom" style={{ backgroundColor: 'black', color: 'white', border: 'none' }}>
                     Download Resume
                 </Button>
