@@ -5,7 +5,6 @@ const MyNavbar = () => {
   const navbarToggleRef = useRef(null);
 
   const handleNavLinkClick = () => {
-    console.log("Check here",navbarToggleRef)
     if (navbarToggleRef.current) {
       navbarToggleRef.current.click(); // Simulate a click to close the dropdown
     }
@@ -19,7 +18,7 @@ const MyNavbar = () => {
         <Nav className="ml-auto">
           <Nav.Link href="#home" className="nav-link" onClick={handleNavLinkClick}>Home</Nav.Link>
           <Nav.Link href="#resume" className="nav-link" onClick={handleNavLinkClick}>Resume</Nav.Link>
-          <Nav.Link href="#portfolio" className="nav-link" onClick={handleNavLinkClick}>Portfolio</Nav.Link>
+          <Nav.Link href="#portfolio" className="nav-link" onClick={handleNavLinkClick}>Projects</Nav.Link>
           <Nav.Link href="#contact" className="nav-link" onClick={handleNavLinkClick}>Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>

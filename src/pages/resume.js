@@ -26,7 +26,7 @@ const Resume = () => {
         }
     }
     return (
-        <section id="resume">
+        <section id="resume" style={{'margin-bottom': '-120px'}}>
             <Container>
                 <h2 className="display-6 text-dark">My Resume</h2>
                 <p className="lead text-muted" style={{ 'text-align': 'justify' }}>As a skilled software developer with a strong academic background, I have a proven track record of designing and implementing efficient solutions. My expertise in various programming languages, frameworks, and technologies, combined with my knowledge of machine learning and cloud computing, allows me to deliver high-quality results.
@@ -41,6 +41,7 @@ const Resume = () => {
                 </Button>
             </Container>
         </section>
+        
     );
 };
 

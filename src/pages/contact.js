@@ -58,10 +58,10 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact">
+        <section id="contact" style={{'marginTop': '-130px'}}>
             <Container>
-                <h2 className="text-dark">Contact Me</h2>
-                <p className="text-muted">Reach out to me using the form below:</p>
+                <h2 className="display-6 text-dark">Contact Me</h2>
+                <p className="text-muted">Reach out to me using the form below. Yes, I will receive an email!</p>
 
                 {showAlert && (
                     <Alert variant="success" onClose={() => setShowAlert(false)} dismissible>

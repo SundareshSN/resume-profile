@@ -1,0 +1,56 @@
+
+Employee Management System
+- Revamped an Employee Management System using technologies like ReactJS, NodeJS, Python and MySQL.
+- Took an existing legacy application and structured it into different modules and services, making it easy to identify different parts of the application.
+- Upheld standard coding practices by creating test cases and monitoring them with SonarQube, achieving 85% code coverage.
+- Created an Employee Self Service which includes services like generating reports for required dates, payslips, compensation and leaves. 
+
+Simple Messaging Queue service using Java, SpringBoot and RabbitMQ
+- Created a RabbitMQ messaging queue and integrated it with a basic springboot application.
+- This consists of API calls that facilitate in the sending of messages.
+- APIs were tested on Postman and messages were being transferred on the RabbitMQ queue.
+
+Self Optimizing Network Configurator
+- Worked actively on Verizon's Self Optimizing Network software which had a MERN tech stack and also included Python and Shell Scripting for other backend services. 
+- This application was used to actively monitor Verizon's network cell tower configurations to identify any downtimes and fix those configurations. The product is used my network engineers as well as the process is automated.
+- Worked on creating several new microservices in NodeJS and implemented APIs and ensured that their functionality enhanced the capabilities of the software along with being compliant to company's coding standards.
+- Lead an application refactoring project when the transition was happening from MySQL to SingleStore database to add analytical capabilities in the backend. 
+- Took an active part in the mentorship program where junior developers were brought up to speed with the software,the tech stack used and the future plans in line for the product's improvement and enhancement.
+
+Mock eCommerce website for small businesses.
+- Developed a mock eCommerce website which was proposed to small businesses to help sell their products to consumers.
+- The application was developed in AngluarJS and Java and had a quick and improvised check out mechanism which made the whole checkout experience convenient and hassle free.
+
+Movie Genre Prediction Model using Machine Learning
+- This was a project that was used to predict a given movie based on data like comments, descriptions, tags and other related features.
+- Machine Learning algorithms like Support Vector Machines and Naive Bayes algorithms were used as a prediction model. 5 learning models were compared against each other to find the most accurate model.
+- An optimized Linear Regression model turned out to be the most efficient of all, giving an accuracy of 86% in genre prediction.
+
+UTA Vending Machine System
+- This was an Android project which strictly followed Agile development practices. 
+- The project was designed for university students to locate vending machines and real time stock count of items throughout the campus.
+- The application shows up the location of vending machines around the campus and gives a live stock count of items, and blocks the item out if it's sold out. 
+- There was a payment gateway which used to securely capture card details, save it for future use and send a message to the customer, like a one time password to verify the user, as another step of authentication.
+
+Pharmacy Search Engine and Image Captioning Module
+- Used a pharmacy dataset to train a search engine module. The dataset consisted of names of drugs as well as the ailments that the drugs were used for.
+- The Naive Bayes model was mainly used for this classification and created a bag of words.
+- TF-IDF scores were calculated to understand the frequency and importance of the words in the document.
+- The search engine used to take an ailment or a symptom as an input and the results that were generated consisted of the drug best suited for the condition.
+
+Interactive Chatbot using React, Firebase and Dialogflow
+- An interactive chatbot was created for the internal communication of members in an institution.
+- React, Nodejs, Google's Firebase and Dialogflow were used to design and frame the questions that could be expected from the user and provide a curated response for the user.
+- This helped in raising internal queries, requests and service tickets.
+
+Autism Detection using Machine Learning
+Developed a machine learning model for au sm diagnosis.
+- Implemented eﬃcient algorithms like Linear Regression and KNN and data analysis techniques for accurate classiﬁcation, achieving an accuracy of 78%.
+- Designed a user-friendly interface for both doctors and parents to assess potential autism symptoms.
+- Optimized model for cost-eﬀectiveness and reduced time to diagnosis by 25%.
+
+Smart Locking System using Arduino
+- The project aimed at designing a secure door lock for gym lockers and cabinets. 
+- An Arduino Uno microcontroller board was used with hardware componentslike servo motors and a keypad.
+- Blynk Arduino library was used to establish a wireless connection between a smartphone and Arduino. 
+
