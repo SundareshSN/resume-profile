@@ -11,8 +11,8 @@ const Home = () => {
           src="_DSC0356.jpeg"
           alt="Milind Kulgod"
           style={{
-            width: isHovered ? '300px' : '180px',
-            height: isHovered ? '420px' : '260px',
+            width: isHovered ? '300px' : '160px',
+            height: isHovered ? '420px' : '232px',
             borderRadius: '5%',
             marginLeft: '60px',
             float: 'right',
