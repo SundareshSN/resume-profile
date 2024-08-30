@@ -10,7 +10,7 @@ const Home = () => {
         <img
           src="_DSC0356.jpeg"
           alt="Milind Kulgod"
-          style={{ width: '195px', height: '280px', borderRadius: '10%', marginLeft: '60px', float: 'right'}}
+          style={{ width: '180px', height: '260px', borderRadius: '10%', marginLeft: '60px', float: 'right'}}
         />
           <h1 className="display-4 text-dark">Hello there!</h1>
           <p className="lead text-muted">I'm Milind Kulgod. A passionate developer focused on delivering impactful solutions.</p>
