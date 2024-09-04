@@ -31,6 +31,14 @@ const Home = () => {
         <p className="lead text-muted"><b>Bachelor of Engineering</b>:</p>
         <p className="lead text-muted">Information Science and Engineering, Nitte Meenakshi Institute of Technology, Bengaluru, Karnataka, India - 560064</p>
         <br />
+        <h2 className="display-6 text-dark">Experience</h2>
+        <p className="lead text-muted"><b>Software Developer</b>(Jan '24 - Present)</p>
+        <p className="lead text-muted">ITVision360 Inc, Irving, TX, USA</p>
+        <p className="lead text-muted"><b>Software Developer</b>(Aug '21 - Jan '24)</p>
+        <p className="lead text-muted">Tata Consultancy Services, Irving, TX, USA</p>
+        <p className="lead text-muted"><b>Software Developer Intern</b>(June '18 - Aug '18)</p>
+        <p className="lead text-muted">Quess Corp Limited, Bengaluru, KA, IN</p>
+        <br />
         <h2 className="display-6 text-dark">Skills and Languages</h2>
         <div>
           <SkillSection />
