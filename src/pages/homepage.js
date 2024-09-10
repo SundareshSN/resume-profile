@@ -1,9 +1,24 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import SkillSection from '../components/skillsection';
 
 const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const YearsAndMonths = () => {
+    const startDate = new Date('2021-08-09');
+    const endDate = new Date();
+    const timeDiff = endDate.getTime() - startDate.getTime();
+    const days = Math.floor(timeDiff / (1000 * 3600 * 24));
+
+    const years = Math.floor(days / 365);
+    const remainingDays = days % 365;
+    const months = Math.floor(remainingDays / 30);
+
+    const yearsAndMonthsDecimal = years + (months + (remainingDays % 30) / 30) / 12;
+
+    return yearsAndMonthsDecimal.toFixed(1);
+  };
+
   return (
     <section id="home">
       <Container style={{ 'text-align': 'justify' }}>
@@ -23,7 +38,7 @@ const Home = () => {
         />
         <h1 className="display-4 text-dark">Hello there!</h1>
         <p className="lead text-muted">I'm Milind Kulgod. A passionate developer focused on delivering impactful solutions.</p>
-        <p className="lead text-muted">With keen interest and proficiency in Data Analysis, Machine Learning and Full Stack Development, I come with a versatile palette of skills and technologies, leveraging them to drive strategic decision-making and optimize business outcomes.</p>
+        <p className="lead text-muted">With {YearsAndMonths()} years of experience and keen interest and proficiency in Data Analysis, Machine Learning and Full Stack Development, I come with a versatile palette of skills and technologies, leveraging them to drive strategic decision-making and optimize business outcomes.</p>
         <br />
         <h2 className="display-6 text-dark">Education</h2>
         <p className="lead text-muted"><b>Master of Science</b>:</p>
