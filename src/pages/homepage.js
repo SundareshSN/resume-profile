@@ -12,7 +12,7 @@ const Home = () => {
 
     const years = Math.floor(days / 365);
     const remainingDays = days % 365;
-    const months = Math.floor(remainingDays / 30);
+    const months = Math.floor(remainingDays / 30) + 2;
 
     const yearsAndMonthsDecimal = years + (months + (remainingDays % 30) / 30) / 12;
 
