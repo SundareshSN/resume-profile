@@ -116,6 +116,13 @@ const Chatbot = () => {
                             className="chatbot-input"
                             placeholder="Type your message..."
                         />
+                        <button
+                            type="submit"
+                            className="chatbot-send-button"
+                            aria-label="Send Message"
+                        >
+                         <img src="send.png" width={20} height={20}></img>
+                        </button>
                     </form>
                 </div>
             ) : (
