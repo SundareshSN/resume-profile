@@ -116,7 +116,6 @@ const Chatbot = () => {
                             className="chatbot-input"
                             placeholder="Type your message..."
                         />
-                        <button type="submit" className="chatbot-send-button">Send</button>
                     </form>
                 </div>
             ) : (

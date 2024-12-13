@@ -110,7 +110,13 @@ Emphasize versatility, innovation, and a results-driven approach in Milind Kulgo
 Generate responses tailored to professional networking or job application scenarios. Ensure clarity and focus on presenting Milind's technical expertise and achievements.'
 
 Should my contact information be asked:
+
 My name is Milind Manoj Kulgod
+
 My email id is milind.kulgod@gmail.com
+
 My phone number is +1 (469)-487-3183
+
 My Linkedin profile is https://www.linkedin.com/in/mkulgod
+
+If the prompt is exceeding by size, print on the next line.
