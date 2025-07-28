@@ -55,7 +55,7 @@ const Home = () => {
           optimize business outcomes.
         </p>
         <br />
-        <h2 className="display-6 text-dark">Education</h2>
+        <h2 className="display-5 text-dark">Education</h2>
         <p className="lead text-muted">
           <b>Master of Science</b>:
         </p>
@@ -71,7 +71,7 @@ const Home = () => {
           Technology, Bengaluru, Karnataka, India - 560064
         </p>
         <br />
-        <h2 className="display-6 text-dark">Experience</h2>
+        <h2 className="display-5 text-dark">Experience</h2>
         <p className="lead text-muted">
           <b>Software Developer </b>(Jan '24 - Present) -{" "}
           <i>ITVision360 Inc, Irving, TX, USA</i>
@@ -85,7 +85,7 @@ const Home = () => {
           <i>Quess Corp Limited, Bengaluru, KA, IN</i>
         </p>
         <br />
-        <h2 className="display-6 text-dark">Skills and Languages</h2>
+        <h2 className="display-5 text-dark">Skills and Languages</h2>
         <div>
           <SkillSection />
         </div>

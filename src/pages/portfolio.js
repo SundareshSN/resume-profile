@@ -1,39 +1,51 @@
-import React, { useState, useEffect } from 'react';
-import { Container } from 'react-bootstrap';
+import React, { useState, useEffect } from "react";
+import { Container } from "react-bootstrap";
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('/projects.txt')
-      .then(response => response.text())
-      .then(data => {
-        const projectList = data.trim().split('\n\n').map(project => {
-          const lines = project.split('\n');
-          const title = lines[0]; // Project title
-          const details = lines.slice(1); // Project details
+    fetch("/projects.txt")
+      .then((response) => response.text())
+      .then((data) => {
+        const projectBlocks = data.trim().split(/\n\s*\n/);
+        const projectList = projectBlocks.map((block) => {
+          const lines = block.split("\n").filter((line) => line.trim() !== "");
+          const title = lines[0].replace(/^[-\s]*/, "");
+          const details = lines
+            .slice(1)
+            .filter((line) => line.startsWith("- "));
           return { title, details };
         });
         setProjects(projectList);
       });
   }, []);
+
   return (
-    <section id="portfolio" style={{'text-align':'justify'}}>
+    <section id="portfolio" style={{ marginBottom: "-120px" }}>
       <Container>
-        <h2 className="display-6 text-dark">My Projects</h2>
-        <p className="lead text-muted">Here are some of the projects I've worked on:</p>
-        <p className="lead text-muted">
+        <h2 className="display-5 text-dark">My Projects</h2>
+        <p className="lead text-muted" style={{ textAlign: "justify" }}>
+          Here are some of the projects I've worked on:
+        </p>
+        <div>
           {projects.map((project, index) => (
-            <div key={index} style={{ marginBottom: '20px' }}>
-              <h3 className='text-dark'>{project.title}</h3>
+            <div key={index} style={{ marginBottom: "32px" }}>
+              <h8 className="display-6 text-dark">{project.title}</h8>
               <ul>
                 {project.details.map((detail, i) => (
-                  <li key={i}>{detail.slice(2)}</li>
+                  <li
+                    key={i}
+                    className="lead text-muted"
+                    style={{ textAlign: "justify" }}
+                  >
+                    {detail.replace(/^- /, "")}
+                  </li>
                 ))}
               </ul>
             </div>
           ))}
-        </p>
+        </div>
       </Container>
     </section>
   );
