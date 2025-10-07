@@ -1,11 +1,11 @@
-import React from 'react';
-import Navbar from './components/navbar';
-import Chatbot from './components/chatbot';
-import Footer from './components/footer';
-import Home from './pages/homepage';
-import Resume from './pages/resume';
-import Portfolio from './pages/portfolio';
-import Contact from './pages/contact';
+import React from "react";
+import Navbar from "./components/navbar";
+import Chatbot from "./components/chatbot";
+import Footer from "./components/footer";
+import Home from "./pages/homepage";
+import Resume from "./pages/resume";
+import Portfolio from "./pages/portfolio";
+import Contact from "./pages/contact";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Resume />
       <Portfolio />
       <Contact />
-      <Chatbot />
+      {/* <Chatbot /> */} /* Chatbot temporarily disabled */
       <Footer />
     </div>
   );
