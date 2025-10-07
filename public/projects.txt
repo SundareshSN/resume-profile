@@ -1,16 +1,17 @@
 
-Employee Management System
-- Revamped an Employee Management System using technologies like ReactJS, NodeJS, Python and MySQL.
-- Took an existing legacy application and structured it into different modules and services, making it easy to identify different parts of the application.
-- Upheld standard coding practices by creating test cases and monitoring them with SonarQube, achieving 85% code coverage.
-- Created an Employee Self Service which includes services like generating reports for required dates, payslips, compensation and leaves. 
+North Star Architecture Migration - Verizon
+- Led migration of 4 prepaid brands to Verizon’s NSA tech stack (Next.js, Spring Boot, Cassandra), delivering projects 2 months ahead of schedule and reducing post-launch issues by 35%.
+- Designed reusable microservice frameworks, cutting onboarding time for future brands by 40%.
+- Developed and integrated authentication/customer management microservices, improving system security and management efficiency for over 1 million users.
+- Engineered API logging and optimized data routing, increasing response speed by 30% and maintaining 99.9% uptime.
+- Drove performance improvements with advanced API development and database tuning, reducing average store onboarding time by 20%.
 
 Simple Messaging Queue service using Java, SpringBoot and RabbitMQ
 - Created a RabbitMQ messaging queue and integrated it with a basic springboot application.
 - This consists of API calls that facilitate in the sending of messages.
 - APIs were tested on Postman and messages were being transferred on the RabbitMQ queue.
 
-Self Optimizing Network Configurator
+Self Optimizing Network Configurator - Verizon
 - Worked actively on Verizon's Self Optimizing Network software which had a MERN tech stack and also included Python and Shell Scripting for other backend services. 
 - This application was used to actively monitor Verizon's network cell tower configurations to identify any downtimes and fix those configurations. The product is used my network engineers as well as the process is automated.
 - Worked on creating several new microservices in NodeJS and implemented APIs and ensured that their functionality enhanced the capabilities of the software along with being compliant to company's coding standards.
