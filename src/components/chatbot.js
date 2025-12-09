@@ -21,7 +21,7 @@ const Chatbot = () => {
   }, []);
 
   const genAI = new GoogleGenerativeAI(
-    "AIzaSyBCR5V57cnvWX6W92s4_WnM6piYpAzykmo"
+    ""
   );
   const model = genAI.getGenerativeModel({
     model: "gemini-1.5-pro",
