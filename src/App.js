@@ -15,7 +15,7 @@ function App() {
       <Resume />
       <Portfolio />
       <Contact />
-      {/* <Chatbot /> */} /* Chatbot temporarily disabled */
+      {/* <Chatbot /> */}
       <Footer />
     </div>
   );

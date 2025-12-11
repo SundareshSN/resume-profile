@@ -38,23 +38,34 @@ const Contact = () => {
       from_name: "Milind's Portfolio",
     };
 
+    // read the EmailJS public key from an env var so it's not committed
+    const userId = process.env.REACT_APP_EMAILJS_USER_ID;
+
+    if (!userId) {
+      console.error(
+        "EmailJS public key is missing. Set REACT_APP_EMAILJS_USER_ID in your .env and rebuild the app."
+      );
+      alert(
+        "Email service is not configured. Please contact me directly or try again later."
+      );
+      return;
+    }
+
+    // initialize EmailJS with the public key and send without passing the key again
+    emailjs.init(userId);
+
     emailjs
-      .send(
-        "service_portfolio",
-        "template_portfolio",
-        templateParams,
-        "OTtJ9uxTwLZi5tazk"
-      )
+      .send("service_portfolio", "template_portfolio", templateParams)
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        alert("Message sent successfully!");
+        setShowAlert(true);
+        // clear form after successful send
+        setFormData({ name: "", email: "", phone: "", message: "" });
       })
       .catch((err) => {
         console.error("Failed to send message:", err);
         alert("Failed to send message, please try again later.");
       });
-
-    setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
   return (
