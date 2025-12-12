@@ -15,7 +15,7 @@ const Home = () => {
     const months = Math.floor(remainingDays / 30);
 
     let totalMonths = years * 12 + months;
-    let displayYears = Math.floor(totalMonths / 12);
+    let displayYears = Math.floor(totalMonths / 12) - 2;
     let displayMonths = totalMonths % 12;
     if (displayMonths === 0) {
       return `${displayYears} years`;
