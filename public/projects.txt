@@ -53,5 +53,11 @@ Developed a machine learning model for au sm diagnosis.
 Smart Locking System using Arduino
 - The project aimed at designing a secure door lock for gym lockers and cabinets. 
 - An Arduino Uno microcontroller board was used with hardware componentslike servo motors and a keypad.
+- Blynk Arduino library was used to establish a wireless connection between a smartphone and Arduino.
+- https://www.google.com
+
+This is a test project added.
+- The project aimed at designing a secure door lock for gym lockers and cabinets. 
+- An Arduino Uno microcontroller board was used with hardware componentslike servo motors and a keypad.
 - Blynk Arduino library was used to establish a wireless connection between a smartphone and Arduino. 
 

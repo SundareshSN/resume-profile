@@ -20,9 +20,8 @@ const Home = () => {
     if (displayMonths === 0) {
       return `${displayYears} years`;
     }
-    return `${displayYears} years and ${displayMonths} month${
-      displayMonths === 1 ? "" : "s"
-    }`;
+    return `${displayYears} years and ${displayMonths} month${displayMonths === 1 ? "" : "s"
+      }`;
   };
 
   return (
@@ -54,39 +53,43 @@ const Home = () => {
           optimize business outcomes.
         </p>
         <br />
-        <h2 className="display-5 text-dark">Education</h2>
-        <p className="lead text-muted">
-          <b>Master of Science</b>:
-        </p>
-        <p className="lead text-muted">
-          Computer Science and Engineering, University of Texas at Arlington,
-          Arlington, TX, USA - 76013
-        </p>
-        <p className="lead text-muted">
-          <b>Bachelor of Engineering</b>:
-        </p>
-        <p className="lead text-muted">
-          Information Science and Engineering, Nitte Meenakshi Institute of
-          Technology, Bengaluru, Karnataka, India - 560064
-        </p>
-        <br />
-        <h2 className="display-5 text-dark">Experience</h2>
-        <p className="lead text-muted">
-          <b>Software Developer </b>(Jan '24 - Present) -{" "}
-          <i>ITVision360 Inc, Irving, TX, USA</i>
-        </p>
-        <p className="lead text-muted">
-          <b>Software Developer </b>(Aug '21 - Jan '24) -{" "}
-          <i>Tata Consultancy Services, Irving, TX, USA</i>
-        </p>
-        <p className="lead text-muted">
-          <b>Software Developer Intern </b>(June '18 - Aug '18) -{" "}
-          <i>Quess Corp Limited, Bengaluru, KA, IN</i>
-        </p>
-        <br />
         <h2 className="display-5 text-dark">Skills and Languages</h2>
-        <div>
+        <div style={{ marginBottom: "6.5rem" }}>
           <SkillSection />
+        </div>
+        <br />
+        <div>
+          <h2 className="display-5 text-dark">Experience</h2>
+          <p className="lead text-muted">
+            <b>Software Developer </b>(Jan '24 - Present) -{" "}
+            <i>ITVision360 Inc, Irving, TX, USA</i>
+          </p>
+          <p className="lead text-muted">
+            <b>Software Developer </b>(Aug '21 - Jan '24) -{" "}
+            <i>Tata Consultancy Services, Irving, TX, USA</i>
+          </p>
+          <p className="lead text-muted">
+            <b>Software Developer Intern </b>(June '18 - Aug '18) -{" "}
+            <i>Quess Corp Limited, Bengaluru, KA, IN</i>
+          </p>
+        </div>
+        <br />
+        <div>
+          <h2 className="display-5 text-dark">Education</h2>
+          <p className="lead text-muted">
+            <b>Master of Science</b>:
+          </p>
+          <p className="lead text-muted">
+            Computer Science and Engineering, University of Texas at Arlington,
+            Arlington, TX, USA - 76013
+          </p>
+          <p className="lead text-muted">
+            <b>Bachelor of Engineering</b>:
+          </p>
+          <p className="lead text-muted">
+            Information Science and Engineering, Nitte Meenakshi Institute of
+            Technology, Bengaluru, Karnataka, India - 560064
+          </p>
         </div>
       </Container>
     </section>

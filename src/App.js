@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./components/navbar";
-import Chatbot from "./components/chatbot";
 import Footer from "./components/footer";
 import Home from "./pages/homepage";
 import Resume from "./pages/resume";
@@ -15,7 +14,6 @@ function App() {
       <Resume />
       <Portfolio />
       <Contact />
-      {/* <Chatbot /> */}
       <Footer />
     </div>
   );
