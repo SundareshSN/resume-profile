@@ -44,8 +44,7 @@ const Home = () => {
         />
         <h1 className="display-4 text-dark">Hello there!</h1>
         <p className="lead text-muted">
-          I'm Milind Kulgod. A passionate developer focused on delivering
-          impactful solutions.
+          I'm Sundaresh Shankar Narayan.
         </p>
         <p className="lead text-muted">
           With {YearsAndMonths()} of experience and keen interest and
