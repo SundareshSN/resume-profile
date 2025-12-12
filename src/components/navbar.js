@@ -12,7 +12,7 @@ const MyNavbar = () => {
 
   return (
     <Navbar expand="lg" className="navbar" fixed="top">
-      <Navbar.Brand href="#home" className="text-light">Milind Kulgod</Navbar.Brand>
+      <Navbar.Brand href="#home" className="text-light">Sundaresh SN</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" ref={navbarToggleRef} />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

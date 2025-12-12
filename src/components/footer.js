@@ -11,7 +11,7 @@ const Footer = () => {
       }}
     >
       <p style={{ color: "#b3b3b3", margin: 0 }}>
-        &copy; {years} Milind Kulgod. All rights reserved.
+        &copy; {years} Sundaresh Shankar Narayan. All rights reserved.
       </p>
     </footer>
   );

@@ -35,7 +35,7 @@ const Contact = () => {
 
     const templateParams = {
       ...formData,
-      from_name: "Milind's Portfolio",
+      from_name: "Sundaresh's Portfolio",
     };
 
     // read the EmailJS public key from an env var so it's not committed
