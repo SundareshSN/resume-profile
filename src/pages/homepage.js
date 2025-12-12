@@ -5,7 +5,7 @@ import SkillSection from "../components/skillsection";
 const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
   const YearsAndMonths = () => {
-    const startDate = new Date("2021-08-09");
+    const startDate = new Date("2018-08-01");
     const endDate = new Date();
     const timeDiff = endDate.getTime() - startDate.getTime();
     const days = Math.floor(timeDiff / (1000 * 3600 * 24));
